@@ -1,13 +1,99 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Progate</title>
-    
-  </head>
-  <body>
-    
-    
-    <footer></footer>
-  </body>
-</html>
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+/* CSS for container */
+.container{
+  width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* CSS for top-wrapper */
+.top-wrapper {
+  padding-top: 180px;
+  padding-bottom: 100px;
+  color: white;
+  background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
+  background-size: cover;
+    text-align: center;
+}
+
+/* CSS for <h1> tags within top-wrapper */
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+
+/* CSS for <p> tags within top-wrapper */
+.top-wrapper p {
+  opacity:  0.7;
+  margin-bottom: 3px;
+}
+
+
+/* CSS for btn */
+.btn {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius:  4px;
+}
+
+
+/* CSS for btn on hover */
+btn:hover {
+  opacity:1;
+}
+
+/* CSS for signup */
+.signup {
+  background-color: #239b76;
+}
+
+
+/* CSS for facebook */
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+
+/* CSS for twitter */
+.twitter {
+  background-color: #55acee;
+}
+
+
+/* CSS for btn-wrapper */
+.btn-wrapper {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+/* CSS for <p> tags inside btn-wrapper */
+.btn-wrapper p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Change fa's margin-right to 5px */
+.fa {
+  margin-right: 5px;
+}
